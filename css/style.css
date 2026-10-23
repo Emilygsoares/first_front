@@ -259,6 +259,14 @@
        width: auto;
    }
    
+   .text-red {
+    color: red;
+}
+
+.center {
+    text-align: center;
+}
+
 /**************************/
 /***** RESPONSIVIDADE *****/
 /**************************/
@@ -314,4 +322,3 @@
         max-width: 250px;
     }
 }
-   
