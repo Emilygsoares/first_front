@@ -26,9 +26,9 @@ article form button {
 article form input,
 article form textarea {
     width: 100%;
-    background-color: rgb(254, 220, 220);
-    border: 1px solid red;
-    border-bottom: 3px solid red;
+    background-color: rgba(82, 82, 185, 0.5);
+    border: 1px solid #0000FF;
+    border-bottom: 3px solid #0000FF;
 }
 
 article form button {

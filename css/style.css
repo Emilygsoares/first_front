@@ -9,6 +9,60 @@
 
    /*Todas as caixas*/
 
+
+
+   .c-card {
+    /* Define o cartão como um quadrado perfeito (ex: 320px por 320px) */
+    width: 320px;
+    height: 320px;
+    
+    /* Organiza o conteúdo internamente com espaçamento distribuído */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* Estética do cartão */
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.c-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.c-card p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Estilo do link parecendo botão */
+.c-card .btn-iniciar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 16px;
+    background-color: #0066ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    box-sizing: border-box;
+}
+
+.c-card .btn-iniciar:hover {
+    background-color: #0052cc;
+}
    * {
        box-sizing: border-box;
        outline: none;
